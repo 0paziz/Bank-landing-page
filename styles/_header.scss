@@ -1,0 +1,109 @@
+.nav-container{
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $White;
+    position: relative;
+    z-index: 50;
+}
+    svg{
+        cursor: pointer;
+
+    }
+
+#ham, #close{
+    display: none;
+    
+}
+    .logo{
+          display: flex;
+          align-items: center;
+          
+    }
+
+  
+
+    .nav-list{
+        display: flex;
+        list-style: none;
+        overflow: hidden;
+        align-items: center;
+        margin: 0;
+        padding: 5px;
+    }
+        a{
+            text-decoration: none;
+            padding: 15px;
+            color: $Grayish-Blue;
+            font-size: 18px;
+           
+        }
+        .nav-list a:hover{
+                color: $Dark-Blue;
+                border-bottom: 1px solid #1f5e0f;
+            }
+
+       
+    
+    #button_nav{
+        background: rgb(43,190,190);
+background: linear-gradient(0deg, rgba(43,190,190,1) 0%, rgba(49,209,101,1) 100%);
+        color: white;
+        font-size: 18px;
+        padding: 15px;
+        border: none;
+        width: 200px;
+        line-height: 1;
+        border-radius: 35px;
+        cursor: pointer;
+
+    }
+
+    #button_nav:hover{
+        background-color: rgb(62, 99, 73);
+    }
+
+    .ham-menu{
+        display: none;
+       text-align: justify;
+        padding: 10px 40px;
+        width: 300px;
+        position: absolute;
+       top: 80px;
+       left: 45px;
+       z-index: 20;
+        background: #fff;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        
+    }
+
+
+    
+    .ham-nav-list{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        overflow: hidden;
+        align-items: center;
+        margin: 0;
+        padding: 5px;
+       
+    }
+        a{
+            
+            text-decoration: none;
+            padding: 15px;
+            color: $Dark-Blue;
+            font-size: 18px;
+           
+        }
+         a:hover{
+         
+                color: $Grayish-Blue ;
+            
+            }

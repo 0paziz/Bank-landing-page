@@ -1,0 +1,197 @@
+
+$Grayish-Blue: hsl(233, 8%, 62%);
+
+$Light-Grayish-Blue: hsl(220, 16%, 96%);
+$Very-Light-Gray: hsl(0, 0%, 98%);
+$White: hsl(0, 0%, 100%);
+
+
+$Dark-Blue: hsl(233, 26%, 24%);
+$Lime-Green: hsl(136, 65%, 51%);
+$Bright-Cyan: hsl(192, 70%, 51%);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color:$Very-Light-Gray ;
+    font-family: "Public Sans", serif;
+  font-optical-sizing: auto;
+}
+
+@import '_header';
+@import '_mobileView';
+@import '_introMobile';
+@import '_desktopview';
+@import '_footer';
+
+.content-container {
+ 
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 50px;
+    padding-bottom: 50px;
+  
+}
+
+
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+    z-index: 2;
+   gap: 30px;
+   padding: 20px 40px;
+   
+   
+}
+
+.text-container h1 {
+    font-size: 3rem;
+    color: #333;
+}
+
+.text-container p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.svg-sided #mobile-intro{
+    display: none;
+}
+
+.svg-sided #des-intro{
+    position: absolute;
+    bottom: -10px;
+    left:40%;
+    width: 900px;
+ 
+    z-index: 1;
+}
+
+.svg-sided #des-intro{
+    width: 100%;
+    height: 900px;
+}
+
+#button_sided{
+    background: rgb(43,190,190);
+background: linear-gradient(0deg, rgba(43,190,190,1) 0%, rgba(49,209,101,1) 100%);
+    color: white;
+    font-size: 18px;
+    padding: 15px;
+    border: none;
+    width: 150px;
+    line-height: 1;
+    border-radius: 25px;
+    cursor: pointer;
+
+}
+
+
+ 
+    .feutures-sec {
+      margin-top: 8px;
+      padding-left: 100px;
+      padding-right: 50px;
+        background-color:hsl(220, 16%, 96%);
+     
+    
+    }
+ 
+    .text-feutures{
+       margin-top: 50px;
+        display: flex;
+        padding: 40px 30px;
+        flex-direction: column;
+        max-width: 40%;
+        gap: 10px;
+        p{
+            color: $Grayish-Blue;
+           }
+           h1{
+            color: rgb(83, 83, 83);
+           }
+    }
+    
+    .feutures{
+        
+        display: flex;
+        padding: 40px 30px;
+      text-align:left;
+        justify-content:space-between;
+        align-items: center;
+        gap: 10px;
+        h3{
+            color: rgb(83, 83, 83);
+           }
+        p{
+            color: $Grayish-Blue;
+           }
+    }
+
+    .feutures-list{
+        padding: 30px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+      
+    }
+  
+    .heading-artcile{
+        padding: 4px 130px;
+        margin-top: 50px;
+        color: rgb(77, 77, 77);
+        margin-bottom: 1;
+
+    }
+
+    .artciles{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 50px;
+
+        gap: 30px;
+        h3{
+            color: $Dark-Blue;
+            cursor: pointer;
+           
+        }
+        h3:hover{
+            color: $Lime-Green;
+        }
+
+        p{
+            color: $Grayish-Blue;
+    
+           
+           }
+    }
+.flash-list{
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+   border-radius: 10px;
+   background-color: $White;
+    padding-bottom: 15px;
+   h3,p{
+    padding: 5px 20px;
+  
+   
+   }
+
+}
+    .flash-list img{
+        margin-bottom: 50px;
+       cursor: pointer;
+       object-fit: fill;
+    }
