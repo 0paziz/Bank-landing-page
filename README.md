@@ -34,18 +34,17 @@ only responsive min-width: 1024px for desktop
 and max-width:430px for mobiles
 
 desktopView :
-![alt text](<design/Solution desing/desktop-view easy bank.png>)
+![DesktopView](<design/Solution desing/desktop-view easy bank.png>)
 
 mobileView:
-![alt text](<design/Solution desing/mobile-view easy bank.png>)
+![Mobileview](<design/Solution desing/mobile-view easy bank.png>)
 
 
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://0paziz.github.io/Bank-landing-page/)
 
 ## My process
 
