@@ -118,8 +118,8 @@ By focusing on these areas, I aim to build high-quality, scalable web applicatio
 
 ### Useful resources
 
-- [Example resource 1](https://stackoverflow.com/questions/36190523/position-an-element-on-each-corner-no-matter-the-size-of-the-svg) - This helped me for  understanding svg positioning in corners. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.w3schools.com/css/css_overflow.asp) - This is an amazing article which helped me finally understand how overflow works. I'd recommend it to anyone still learning this concept.
+- [css styles svg positioning](https://stackoverflow.com/questions/36190523/position-an-element-on-each-corner-no-matter-the-size-of-the-svg) - This helped me for  understanding svg positioning in corners. I really liked this pattern and will use it going forward.
+- [Css styles overflow](https://www.w3schools.com/css/css_overflow.asp) - This is an amazing article which helped me finally understand how overflow works. I'd recommend it to anyone still learning this concept.
 
 
 ## Author
@@ -137,4 +137,4 @@ I would like to express my gratitude to everyone who contributed to my learning 
 Online Resources & Documentation: Platforms like MDN Web Docs, React Docs, and CSS-Tricks helped me better understand key concepts.
 Community Support: Thanks to the developer community on Stack Overflow and GitHub discussions for insightful solutions and troubleshooting tips.
 Inspiration from Other Projects: Looking at various frontend projects and design inspirations helped me refine my approach to achieving the desired layout and responsiveness.
-Their guidance and resources played a crucial role in overcoming challenges and improving the overall quality of my work. 🚀
+Their guidance and resources played a crucial role in overcoming challenges and improving the overall quality of my work. 
