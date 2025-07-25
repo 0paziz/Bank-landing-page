@@ -44,7 +44,7 @@ mobileView:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://0paziz.github.io/Bank-landing-page/)
+- Live Site URL: [Bank-landing](https://0paziz.github.io/Bank-landing-page/)
 
 ## My process
 
